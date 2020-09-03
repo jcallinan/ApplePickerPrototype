@@ -372,7 +372,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1047157342693156163, guid: 4855262897e90dc4ebe9979e91857acd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1047157342693156163, guid: 4855262897e90dc4ebe9979e91857acd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -416,3 +416,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4855262897e90dc4ebe9979e91857acd, type: 3}
+--- !u!1 &1047157343448596927 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1047157342693156165, guid: 4855262897e90dc4ebe9979e91857acd, type: 3}
+  m_PrefabInstance: {fileID: 1047157343448596926}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1047157343448596928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047157343448596927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d24d85679967b949b6f7fd653929b42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  applePrefab: {fileID: 0}
+  speed: 10
+  leftAndRightEdge: 20
+  chanceToChangeDirections: 0.001
+  secondsBetweenAppleDrops: 1
